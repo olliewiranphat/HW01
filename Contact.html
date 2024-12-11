@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume - Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Roboto&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: "Parkinsans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+        }
+
+        .form {
+            width: 700px;
+            /* height: 100%; */
+            padding: 50px;
+            border: 1px solid rgb(201, 200, 200);
+            border-radius: 10px;
+        }
+
+        input,
+        select {
+            width: 505px;
+            border: 1px solid rgb(201, 200, 200);
+        }
+    </style>
+</head>
+
+<body>
+    <p style="padding-top: 5px;">
+        <hr style="border: 1px solid gainsboro;" />
+    </p>
+    <a href="./index.html">Home</a> |
+    <a href="./Education.html">Education</a> |
+    <a href="./Work.html">Work Experience</a> |
+    <a href="#">Contact Me</a>
+    <hr />
+    <h1>Contact Me</h1>
+    <div class="form">
+        <form action="./test01">
+            <p>Enter your info..</p>
+
+            <label for="name">Your Name</label><br>
+            <input type="text" id="name" name="name" required>
+            <div style="margin-top: 20px;"> <label for="email">Your Email</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div style="margin-top: 20px;"> <label for="gender">Gender</label><br>
+                <select name="gender" id="gender" style="width: 510px;">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div style="margin: 20px 0;"> <label for="message">Message</label><br>
+                <textarea name="message" id="message" rows="15" cols="75"></textarea>
+            </div>
+
+            <button>Send</button>
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
